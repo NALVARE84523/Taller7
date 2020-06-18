@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+}
+
+/* inclyendo color en rgb, margen, color de fondo en hexadecimal y estilo de letra al titulo*/
+h1 {
+    background-color: #a4a5d8;
+    padding: 0.5%;
+    margin: 3%;
+    color:rgb(41, 50, 182);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: fantasy, Verdana, Geneva, Tahoma, sans-serif;
+    border: rgb(182, 223, 240) 4px solid;
+}
+
+/*agregando color a h2 en rgba*/
+h2{
+    color: rgb(237, 237, 241);
+}
+
+/* agregando color en hexadecimal*/
+p{
+background-color: #b6b7d6; opacity: 80%;    
+color: rgb(0, 0, 0);
+border: darkblue 5px solid;
+margin: 15%;
+
+}
+
+/* creando una clase para darle estilo a h1*/
+.box{
+    background-color: rgb(5, 45, 90);
+    color: rgb(167, 181, 199);
+}
+
+/* clase para reducir el tamano de imagen*/
+.moto{
+    margin-left: auto;
+    margin-right: -50%;
+    border-style: solid;
+
+    width: 10%;
+}
+/*clase para redurcir el tamano de imagen*/
+img{
+    width: 30%;
+}
